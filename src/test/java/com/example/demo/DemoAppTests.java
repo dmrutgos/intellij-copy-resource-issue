@@ -8,6 +8,6 @@ public class DemoAppTests {
 
     @Test
     public void verifyFile() {
-        assert new File("test.txt").exists();
+        assert new File("dmr/test.txt").exists();
     }
 }
